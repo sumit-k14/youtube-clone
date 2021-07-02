@@ -1,0 +1,53 @@
+.videoCard{
+    padding-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    width: 280px;
+}
+
+.thumbnail{
+    height: 170px;
+    width: 285px;
+}
+
+.video_info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.video_text{
+    margin-left: 15px;
+}
+
+.video_text > h4{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    font-weight: 600;
+    width: 200px;
+}
+
+.channel_verified{
+    display: flex;
+}
+
+.verified{
+    cursor: pointer;
+    color:#000;
+    opacity: 0.7;
+    transform: scale(0.5);
+}
+
+.video_text > p{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.video_avatar{
+    margin-top: 5px;
+    height: 35px!important;
+    width: 35px!important;
+}

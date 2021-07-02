@@ -1,0 +1,21 @@
+.sidebar{
+    flex: 0.1;
+    background: #fff;
+    position: sticky;
+}
+
+.tag{
+    text-decoration: none;
+}
+
+.home_sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_sidebar > p{
+    font-size:x-small;
+    margin-left: 0px;
+}

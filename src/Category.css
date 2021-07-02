@@ -1,0 +1,45 @@
+
+.categories {
+    padding: 1rem 2rem;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background: #fff;
+    position:sticky;
+  }
+  
+  .category-section {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .category {
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 900px;
+    background-color: #eeeeee;
+    padding: .5rem 1rem;
+    font-size: 14px;
+    font-weight:inherit;
+    cursor: pointer;
+    transition: background-color 150ms;
+  }
+  
+  .category:hover {
+    background-color: #ddd;
+  }
+  
+  .active {
+    background-color: #000;
+    color: white;
+    border-color: #EEE;
+  }
+
+  .active:hover{
+      background-color: #606060;
+  }
+  
+  .category:last-child {
+    margin-right: 0;
+  }

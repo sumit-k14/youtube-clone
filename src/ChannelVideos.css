@@ -1,0 +1,75 @@
+.channel_videoCard{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.channelVideo_thumbnail{
+    cursor: pointer;
+    height: 200px;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.channelVideo_info{
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.channelVideo_text > h4{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+}
+
+.channelVideo_text > p{
+    cursor: pointer;
+    margin-left: 10px;
+    color: #606060;
+    font-size: 13px;
+    font-family: Roboto, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.channelVideo_text > .channel_logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.channelVideo_avatar{
+    cursor: pointer;
+    transform: scale(0.6);
+}
+
+.channel_logo > p{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 5px;
+    color: #606060;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.channelVideo_text > p{
+    cursor: pointer;
+    font-family: Roboto, Arial, sans-serif;
+    color: #606060;
+}
+
+.channelVideo_text > .video_quality{
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #606060;
+    font-weight: 600;
+    font-size: 12px;
+}

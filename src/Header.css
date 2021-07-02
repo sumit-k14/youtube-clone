@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.header_logo {
+    cursor: pointer;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 30px;
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-left: 15%;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+
+.header_search::placeholder{
+    padding-left: 15px;
+    font-weight:500;
+    color: gray;
+    font-size: 15px;
+}
+
+.header_search{
+    border: 1px solid rgb(99, 98, 98);
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-radius: 0;
+}
+
+.header_search:hover{
+    border: 1px solid rgb(2, 2, 199);
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-radius: 0;
+}
+
+
+.header_inputBtn {
+    cursor:pointer;
+    width: 18px !important;
+    background-color: rgb(230, 230, 230);
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border-left: 1px solid lightgray;
+    transform: translateY(2px);
+}
+
+.header_mike{
+    cursor: pointer;
+    color: #606060;
+    padding-left: 20px;
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.header_icon {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_input > input {
+    flex: 1;
+    border: none;
+}
+
+.avatar{
+    cursor: pointer;
+    margin-top: 5px;
+    height: 32px!important;
+    width: 32px!important;
+}

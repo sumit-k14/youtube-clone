@@ -1,0 +1,79 @@
+.searchPage{
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px 20px;
+}
+
+.search_filter{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small!important;
+}
+
+.search_filter > h2{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.searchPage > hr{
+    height: 1px;
+    border: 0;
+    background: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.channelCard{
+    display: flex;
+}
+
+.sub_div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.sub_div > .sub_btn{
+    cursor: pointer;
+    color: #606060;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Roboto, Arial, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border: none;
+}
+
+.sub_div > .bell_icon{
+    cursor: pointer;
+    margin-left: 10px;
+    color: gray;
+}
+
+.channel_videos > h4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(36, 36, 36);
+}
+
+.channel_videos > .more_latestVideos{
+    cursor: pointer;
+    font-size: 12px;
+    color: #606060;
+    text-align: center;
+}
+
+.channel_videos > .hr_style{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
